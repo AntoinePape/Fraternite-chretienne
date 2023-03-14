@@ -4,7 +4,7 @@ function resize() {
   // Page 1
   let title = document.getElementById("title");
   let titlePercentage = 0.1 * percentage + 90;
-  title.style.fontSize = 70 * titlePercentage / 100 + "px";
+  title.style.fontSize = 60 * titlePercentage / 100 + "px";
   
   page1.style.height = innerHeight - menu.offsetHeight + "px";
   
