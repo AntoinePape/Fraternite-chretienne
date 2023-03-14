@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fraternité chrétienne Porrentruy</title>
+    <link rel="icon" href="images/icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+  </head>
+  
+  <body>
+    <nav id="menu">
+      <button onclick="goToPage(2)">Présentation</button>
+	  <button onclick="goToPage(3)">Coordonnées</button>
+	</nav>
+	<div id="page1">
+	  <canvas id="canvas" style="position:absolute;"></canvas>
+	  <video id="video" src="FRAT4.mp4" width="0" style="position:absolute; bottom:0;" muted autoplay loop></video>
+	  <h1 id="title">
+	    <div style="text-align:left; font-size:50%;">Bienvenue à la</div>
+		<div>Fraternité chrétienne</div>
+		<div style="text-align:right; font-size:50%;">de Porrentruy</div>
+	  </h1>
+	  <img src="images/brice.gif" style="position:absolute; bottom: 0;"></video>
+	</div>
+	<div id="page2">
+	  <p id="p">a</p>
+	  <p style="font-size:22px; text-align:justify;">
+	    <img id="image" src="images/pollyanna.png" style="width:20%; float:right; padding-left:15px;">
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue.
+	  </p>
+	  <p style="font-size:22px; text-align:justify;">
+	    <img src="images/pollyanna.png" style="width:20%; float:left; padding-right:15px;">
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue.
+	  </p>
+	  <p style="font-size:22px; text-align:justify;">
+	    <span style="font-size:50px; float:left;">L</span>
+		orem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue.
+	  </p>
+    </div>
+	<div id="page3">
+	  <p style="padding:5%; font-size:18px; background:rgb(243, 222, 203);">
+	    <span style="font-size:120%"><b>Adresse</b></span><br>
+	    Faubourg de France 32<br>
+		2900 Porrentruy<br>
+	    Suisse
+	  </p>
+	  <p style="padding:5%; font-size:18px; background:rgb(243, 222, 203);">
+	    <span style="font-size:120%"><b>Horaires</b></span><br>
+		Dimanche<br>
+		10h00 - 12h00<br>
+	  </p>
+      <iframe id="map" style="grid-column:auto/span 2; border:0; margin:auto;"
+	    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d715.0405014167872!2d7.073475438169027!3d47.41908972789781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791f705dc5f9cdd%3A0xe8552b2b6d6f49b2!2sEvang%C3%A9lique%20de%20la%20fraternit%C3%A9%20chr%C3%A9tienne!5e0!3m2!1sfr!2sch!4v1676486461105!5m2!1sfr!2sch" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >
+	  </iframe>
+	</div>
+	<footer>
+	  Réalisation : <a href="https://ads-diffusion.ch/" style="color:rgb(250, 207, 13);">ADS Diffusion</a>
+	</footer>
+	<script src="script.js"></script>
+  </body>
