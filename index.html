@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fraternité chrétienne Porrentruy</title>
+    <link rel="icon" href="images/icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="home.css">
+  </head>
+  
+  <body>
+	
+	<nav>
+	  <button onclick="changePage('programme-02-2023.html')">Programme</button>
+      <button onclick="changePage('gallery.html')">Galerie photos</button>
+	  <button onclick="changePage('testimonies.html')">Témoignages</button>
+	</nav>
+	
+	<div id="page1">
+	  <canvas id="canvas" style="position:absolute;"></canvas>
+	  <video id="video" src="videos/FRAT4.mp4" width="0" style="position:absolute; bottom:0;" muted autoplay loop playsinline></video>
+	  <h1 id="title">
+	    <div style="text-align:left; font-size:50%;">Bienvenue à la</div>
+		<div>Fraternité chrétienne</div>
+		<div style="text-align:right; font-size:50%;">de Porrentruy</div>
+	  </h1>
+	</div>
+	
+	<div id="page2">
+	  <p style="text-align:justify;">
+	    <h2>Titre 1</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+	  </p>
+	  <p style="text-align:justify;">
+	  	<h2>Titre 2</h2>
+        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+	  </p>
+	  <p style="text-align:justify;">
+	    <h2>Titre 3</h2>
+        Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+	  </p>
+    </div>
+	<div id="page3">
+	  <div style="padding:5%; background:rgb(243, 222, 203);">
+	    <h2>Culte</h2>
+		Dimanche de 09h45 à 12h00
+	  </div>
+	  <div style="padding:5%; background:rgb(243, 222, 203);">
+	    <h2>Adresse</h2>
+	    Faubourg de France 32<br>
+		2900 Porrentruy<br>
+	    Suisse
+	  </div>
+      <iframe class="map" style="height:100%; grid-column:auto/span 2; border:0; margin:0 auto;"
+	    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d715.0405014167872!2d7.073475438169027!3d47.41908972789781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791f705dc5f9cdd%3A0xe8552b2b6d6f49b2!2sEvang%C3%A9lique%20de%20la%20fraternit%C3%A9%20chr%C3%A9tienne!5e0!3m2!1sfr!2sch!4v1676486461105!5m2!1sfr!2sch" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >
+	  </iframe>
+	</div>
+	<footer>
+	  Réalisation : <a href="https://ads-diffusion.ch/" style="color:rgb(250, 207, 13);">ADS Diffusion</a>
+	</footer>
+	
+	<script src="script.js"></script>
+  
+  </body>
