@@ -45,4 +45,3 @@ let p = document.getElementById("p");
 resize();
 updateCanvas();
 window.addEventListener('resize', resize);
-
