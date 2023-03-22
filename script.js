@@ -1,15 +1,15 @@
 function resize() {
   let percentage = innerWidth / 5; 
 
-  canvas.width = innerWidth;
-  canvas.height = innerHeight;
+  //canvas.width = innerWidth;
+  //canvas.height = innerHeight;
   if (innerWidth / innerHeight < 16 / 9) {
-	video.width = innerHeight * 16 / 9;
-    video.x = (innerWidth - video.width) / 2;
+	//video.width = innerHeight * 16 / 9;
+    //video.x = (innerWidth - video.width) / 2;
   }
   else {
-	video.width = innerWidth;
-    video.x = 0;
+	//video.width = innerWidth;
+    //video.x = 0;
   }
 }
 
@@ -29,7 +29,7 @@ function openPage(url) {
 }
 
 function updateCanvas() {
-  context.drawImage(video.img, video.x, 0, video.width, canvas.height);
+  //context.drawImage(video.img, video.x, 0, video.width, canvas.height);
   window.requestAnimationFrame(updateCanvas);
 }
 
