@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  overflow-x: hidden;
+  font-family: Arial; 
+  background-color: rgb(167, 149, 125);
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  font-size: 70%;
+  background-color: rgb(40, 40, 40);
+}
+
+a.button {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-color: blue;
+  transition: background-color 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 60%;
+  background-color: rgb(25, 25, 25);
+  color: rgb(250, 207, 13);
+}
+
+p {
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 750px) {
+  
+  body {
+    font-size: 16px;
+  }
+  
+}

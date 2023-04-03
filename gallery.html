@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Galerie photos</title>
+    <link rel="icon" href="images/icon.ico">
+    <meta charset="UTF-8" name="viewport" content= "minimum-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+	<link rel="stylesheet" href="gallery.css">
+  </head>
+  
+  <body>
+	
+	<nav id="nav">
+	  <a class="button" href="index.html">Accueil</a>
+	  <a class="button" href="program.html">Programme</a>
+	  <a class="button" href="gallery.html">Galerie photos</a>
+	</nav>
+
+    <div class="picture" id="picContainer">
+	  <img style="opacity:0; transition:opacity 0.5s;" id="picture">
+	  <button style="position:absolute; right:5%; top:10%;" onclick="closePicture()">🗙</button>
+	</div>
+	
+	<div class="gallery" id="G" style="position:absolute;">
+	  <img src="images/image1.jpeg" onclick="openPicture(this)">
+	  <img src="images/image2.jpeg" onclick="openPicture(this)">
+	  <img src="images/image3.jpeg" onclick="openPicture(this)">
+	  <img src="images/image4.jpeg" onclick="openPicture(this)">
+	  <img src="images/image5.jpeg" onclick="openPicture(this)">
+	  <img src="images/image6.jpeg" onclick="openPicture(this)">
+	</div>
+	
+	<script src="gallery.js"></script>
+
+  </body>
