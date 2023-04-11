@@ -74,7 +74,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 501px) {
   div.gallery {
     grid-template-columns: auto;
   }
